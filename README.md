@@ -1,2 +1,2 @@
-# springbootdemo
-这是我的springboot项目基础封装版本
+# SmartHomeBackground
+这个是智能管家系统的后台
