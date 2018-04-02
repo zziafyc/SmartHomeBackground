@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhongyong.smarthome.mapper.ModBusGateWayMapper">
+    <select id="selectById" resultType="com.zhongyong.smarthome.model.ModBusGateWay">
+        select id,user_id AS userId,scene_id AS sceneId,name,ip,unit_id AS unitId from modbusgateway
+        where user_id = #{userId} AND scene_id = #{sceneId}
+    </select>
+</mapper>
