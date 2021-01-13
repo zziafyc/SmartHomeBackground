@@ -48,11 +48,11 @@ public class StsServiceUtils {
         // 只有 RAM用户（子账号）才能调用 AssumeRole 接口
         // 阿里云主账号的AccessKeys不能用于发起AssumeRole请求
         // 请首先在RAM控制台创建一个RAM用户，并为这个用户创建AccessKeys
-        String accessKeyId = "LTAI0oGvb189hbHm";
-        String accessKeySecret = "UBQe48nUO1xGcgosU34sBoiKiIiT1W";
+        String accessKeyId = "";
+        String accessKeySecret = "";
 
         // RoleArn 需要在 RAM 控制台上获取
-        String roleArn = "acs:ram::1255534167322612:role/zziafyc";
+        String roleArn = "";
 
         // RoleSessionName 是临时Token的会话名称，自己指定用于标识你的用户，主要用于审计，或者用于区分Token颁发给谁
         // 但是注意RoleSessionName的长度和规则，不要有空格，只能有'-' '.' '@' 字母和数字等字符
